@@ -40,6 +40,11 @@
 			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 		
+		<!-- Spring Boot Security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 		
 		<!-- Webjars for jquery and bootstrap -->
 		<!-- https://mvnrepository.com/artifact/org.webjars/bootstrap -->
@@ -62,6 +67,13 @@
 			<artifactId>logback-classic</artifactId>
 		</dependency>
 
+		<!-- Spring Security -->
+		<dependency>
+			<groupId>org.thymeleaf.extras</groupId>
+			<artifactId>thymeleaf-extras-springsecurity4</artifactId>
+<!-- 			<version>2.1.2.RELEASE</version>  -->
+		</dependency>
+		
 		<!-- Test dependencies -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
